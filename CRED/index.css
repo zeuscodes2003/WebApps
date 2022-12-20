@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url(/fonts/Gilroy-Bold.woff);
+}
+@font-face {
+  font-family: "Gilroy SemiBold";
+  src: url(/fonts/Gilroy-SemiBold.woff);
+}
+
+body {
+  background-color: #0f0f0f;
+}
+.frontui {
+  min-height: 102vh;
+  align-items: space-around;
+  background-color: #0f0f0f;
+  display: flex;
+  padding: 60px 200px 100px;
+  flex-direction: column;
+}
+.navbar {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar img {
+  width: 49px;
+}
+.navbar > #Title1 {
+  padding: 4px 0px;
+}
+
+#Title {
+  display: flex;
+}
+#Title a {
+  color: #cfcfcf;
+  text-decoration: none;
+  line-height: 66px;
+  font-size: 18px;
+  font-family: "Gilroy SemiBold";
+  margin: 0 20px 0 36px;
+}
+.frontui_description {
+  display: flex;
+  flex-direction: column;
+}
+.HEAD1 {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  align-items: flex-end;
+}
+.HEAD1 .text {
+  font-family: "Gilroy Bold";
+  font-size: 102.6px;
+  letter-spacing: -4px;
+  width: 819px;
+  color: #f8f8f8;
+  display: inline-block;
+  line-height: 120px;
+  text-align: center;
+}
+.HEAD2 {
+  font-family: "Gilroy Bold";
+  color: #f8f8f8;
+  font-size: 30px;
+  letter-spacing: -0.6px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 38px;
+
+  transform: translate(1.9px, -2px);
+}
+.HEAD3 > .button {
+  text-align: center;
+  color: #f8f8f8;
+  font-size: 24px;
+  font-family: "Gilroy Bold";
+  color: #0f0f0f;
+  border-radius: 40px;
+  padding: 20px 65px;
+  margin-top: 58px;
+  justify-items: center;
+  transform: translate(355px);
+  background-color: #f8f8f8;
+  display: inline-flex;
+  cursor: pointer;
+}
+.phoneanimation > .phone {
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+  height: 800px;
+}
