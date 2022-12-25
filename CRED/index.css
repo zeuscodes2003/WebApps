@@ -108,10 +108,10 @@ body {
   display: inline;
   top: 150px;
 }
-#r,
+/* #r,
 #l {
-  transform: translateY(90px);
-}
+  transform: translateY(100px);
+} */
 #M {
   z-index: 1000;
 }
@@ -130,4 +130,40 @@ body {
 #r1 {
   left: 600px;
   top: -480px;
+}
+/* animation */
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 1s;
+}
+.sofaitems {
+  overflow: hidden;
+  background: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.sofaitems pre {
+  font-family: "Gilroy Bold";
+  font-size: 102.6px;
+  letter-spacing: -4px;
+  width: 819px;
+  color: #f8f8f8;
+  display: inline-block;
+
+  position: relative;
+  left: -50px;
+  border: 40px;
+  bottom: -100px;
+
+  text-align: center;
+}
+.sofaitems p {
+  font-family: "Gilroy Bold";
+  font-size: 30px;
+  left: 220px;
+  top: -150px;
+
+  color: #f8f8f8;
+
+  position: relative;
 }
