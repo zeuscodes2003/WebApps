@@ -135,11 +135,16 @@ body {
 .animate__animated.animate__fadeInUp {
   --animate-duration: 1s;
 }
+.sofa {
+  overflow: hidden;
+  height: 700px;
+}
 .sofaitems {
   overflow: hidden;
   background: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
   background-size: cover;
   box-sizing: border-box;
+  overflow: hidden;
   height: 100vh;
 }
 .sofaitems #mainsub {
@@ -179,9 +184,26 @@ body {
   color: #0f0f0f;
   border-radius: 40px;
   padding: 20px 65px;
+  overflow: hidden;
 
   transform: translate(250px, -150px);
   background-color: #f8f8f8;
   display: inline-flex;
   cursor: pointer;
+}
+.brands {
+  height: 200px;
+  background-color: white;
+}
+.brands p {
+  font-family: "Gilroy Bold";
+  display: inline-block;
+  font-size: 24px;
+  color: #212426;
+  position: relative;
+  left: 200px;
+}
+.brands img {
+  height: 40px;
+  transform: translate(-130px, 90px);
 }
