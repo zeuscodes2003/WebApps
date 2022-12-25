@@ -142,14 +142,14 @@ body {
   box-sizing: border-box;
   height: 100vh;
 }
-.sofaitems pre {
+.sofaitems #mainsub {
   font-family: "Gilroy Bold";
   font-size: 102.6px;
   letter-spacing: -4px;
   width: 819px;
   color: #f8f8f8;
   display: inline-block;
-
+  line-height: -200px;
   position: relative;
   left: -50px;
   border: 40px;
@@ -157,13 +157,17 @@ body {
 
   text-align: center;
 }
-.sofaitems p {
+.sofaitems #sub {
   font-family: "Gilroy Bold";
-  font-size: 30px;
-  left: 220px;
-  top: -150px;
-
-  color: #f8f8f8;
-
+  font-size: 32px;
+  left: 170px;
   position: relative;
+  bottom: 40px;
+  color: #f8f8f8;
+}
+.sofaitems #this {
+  font-family: "Gilroy Bold";
+  font-size: 18;
+  transform: translate(210px, -100px);
+  color: #f8f8f8;
 }
