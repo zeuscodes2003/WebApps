@@ -133,7 +133,7 @@ body {
 }
 /* animation */
 .animate__animated.animate__fadeInUp {
-  --animate-duration: 1s;
+  --animate-duration: 2s;
 }
 .sofa {
   overflow: hidden;
@@ -206,4 +206,44 @@ body {
 .brands img {
   height: 40px;
   transform: translate(-130px, 90px);
+}
+/* _________________________________________________________________________ */
+.sofa1 {
+  height: 100px;
+}
+.sofaitems1 {
+  overflow: hidden;
+  background: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg);
+  background-size: contain;
+
+  height: 820px;
+}
+.sofaitems1 #mainsub1 {
+  font-family: "Gilroy Bold";
+  font-size: 102.6px;
+  letter-spacing: -4px;
+  width: 819px;
+  color: #f8f8f8;
+  display: inline-block;
+  line-height: -500px;
+  position: relative;
+  left: -50px;
+  border: 40px;
+  bottom: -100px;
+
+  text-align: center;
+}
+.sofaitems1 #sub1 {
+  font-family: "Gilroy Bold";
+  font-size: 32px;
+  left: 170px;
+  position: relative;
+  bottom: 40px;
+  color: #f8f8f8;
+}
+.sofaitems1 #this1 {
+  font-family: "Gilroy Bold";
+  font-size: 18;
+  transform: translate(150px, -100px);
+  color: #f8f8f8;
 }
