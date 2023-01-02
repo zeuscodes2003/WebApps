@@ -136,16 +136,15 @@ body {
   --animate-duration: 2s;
 }
 .sofa {
-  overflow: hidden;
-  height: 700px;
+  background: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+  height: 800px;
+  background-size: cover;
 }
 .sofaitems {
   overflow: hidden;
-  background: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
-  background-size: cover;
+
   box-sizing: border-box;
   overflow: hidden;
-  height: 100vh;
 }
 .sofaitems #mainsub {
   font-family: "Gilroy Bold";
@@ -186,7 +185,7 @@ body {
   padding: 20px 65px;
   overflow: hidden;
 
-  transform: translate(250px, -150px);
+  transform: translate(250px, -100px);
   background-color: #f8f8f8;
   display: inline-flex;
   cursor: pointer;
@@ -208,17 +207,14 @@ body {
   transform: translate(-130px, 90px);
 }
 /* _________________________________________________________________________ */
-.sofa1 {
-  height: 100px;
-}
-.sofaitems1 {
+
+.jetitems {
   overflow: hidden;
   background: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg);
-  background-size: contain;
-
-  height: 820px;
+  background-size: cover;
+  height: 850px;
 }
-.sofaitems1 #mainsub1 {
+.jetitems #mainsub {
   font-family: "Gilroy Bold";
   font-size: 102.6px;
   letter-spacing: -4px;
@@ -233,7 +229,7 @@ body {
 
   text-align: center;
 }
-.sofaitems1 #sub1 {
+.jetitems #sub {
   font-family: "Gilroy Bold";
   font-size: 32px;
   left: 170px;
@@ -241,9 +237,25 @@ body {
   bottom: 40px;
   color: #f8f8f8;
 }
-.sofaitems1 #this1 {
+.jetitems #this {
   font-family: "Gilroy Bold";
   font-size: 18;
   transform: translate(150px, -100px);
   color: #f8f8f8;
+  line-height: 20px;
+}
+.button3 {
+  text-align: center;
+  color: #f8f8f8;
+  font-size: 24px;
+  font-family: "Gilroy Bold";
+  color: #0f0f0f;
+  border-radius: 40px;
+  padding: 20px 65px;
+  overflow: hidden;
+
+  transform: translate(250px, -200px);
+  background-color: #f8f8f8;
+  display: inline-flex;
+  cursor: pointer;
 }
