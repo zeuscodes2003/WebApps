@@ -12,3 +12,10 @@ squares.forEach(square => {
   })
 
 })
+let reset = document.getElementById('reset')
+
+reset.onclick=()=>{
+  squares.forEach(square=>{
+    square.innerText='';
+  })
+}
